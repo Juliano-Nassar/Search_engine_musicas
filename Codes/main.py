@@ -18,8 +18,8 @@ print("="*80)
 
 print("LOADING MUSICS FILE")
 
-INDEX_PATH = '../Data/index/index.json'
-index = load_index(INDEX_PATH)
+MUSICS_PARSED_PATH = '../Data/music_info/musics_parsed.csv'
+musics_parsed = pd.read_csv(MUSICS_PARSED_PATH)
 
 print("LOADING DONE")
 
